@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-event.jpg";
 
 const Hero = () => {
   const handleCTA = () => {
-    window.open("https://www.sympla.com.br", "_blank");
+    window.open("https://www.sympla.com.br/evento/lancamento-contrata-brasil-oportunidades-de-contratacao-para-mei-s/3221703?_gl=1*utv7t*_gcl_au*MjA3NTk0NTYwNC4xNzYzOTIzODc2*_ga*NTU3NzUzNjY1LjE3NDUyNjI0MjE.*_ga_KXH10SQTZF*czE3NjM5OTMyNTgkbzQzJGcxJHQxNzYzOTkzMzQ2JGo1MiRsMCRoMTY4MDE5MDQzOQ", "_blank");
   };
 
   return (
