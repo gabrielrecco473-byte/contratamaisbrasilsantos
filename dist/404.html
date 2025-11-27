@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lançamento Contrata+ Brasil - Oportunidades para MEIs em Santos</title>
+    <script>
+      // Redirect to index.html with the current path as a query parameter
+      // This allows React Router to handle the routing
+      const path = window.location.pathname.slice(1);
+      const hash = window.location.hash;
+      if (path) {
+        window.location.replace(
+          window.location.origin + '/contratamaisbrasilsantos/' + (hash || '?p=/' + path)
+        );
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
